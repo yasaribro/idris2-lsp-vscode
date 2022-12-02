@@ -115,7 +115,7 @@ function registerCommandHandlersFor(client: LanguageClient, context: ExtensionCo
                 hoverMessage: res.hover,
                 renderOptions: {
                   after: {
-                    contentText: ' => ' + inlineReplPreviewFor(res.preview) + ' ',
+                    contentText: ' =======> ' + inlineReplPreviewFor(res.preview) + ' ',
                   },
                 }
               }]
